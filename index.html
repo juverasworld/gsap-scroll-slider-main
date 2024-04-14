@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GSAP ScrollTrigger Slider</title>
+	<link rel="icon" href="img/icon.jpg" type="icon/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<!-- div .wrapp -->
+	<div class="wrapp">
+		<!-- header .header -->
+		<header class="header">
+			<div class="content">
+				<h1 class="title">Random Images<span class="stroke">content</span></h1>
+			</div>
+		</header>
+		<!-- header .header END -->
+
+		
+		<!-- main .main -->
+		<main class="main">
+
+			<!-- section .section-slider -->
+			<section class="section-slider gsap_slider">
+
+				<div class="content">
+
+					<div class="section__slider gsap_h">
+
+						<!-- gsap__bl -->
+						<div class="gsap__bl">
+
+							<div class="gsap__inner">
+
+								<div class="gsap__track">
+
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 01</span>
+										<img src="img/fuji-mountain.jpg" alt="1">
+										<span class="gsap__item-img">
+											<img src="img/fuji-mountain.jpg" alt="1">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 02</span>
+										<img src="img/fuji-mountain1.jpg" alt="2">
+										<span class="gsap__item-img">
+											<img src="img/fuji-mountain1.jpg" alt="2">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 03</span>
+										<img src="img/taj-mahal.jpg" alt="3">
+										<span class="gsap__item-img">
+											<img src="img/taj-mahal.jpg" alt="3">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 04</span>
+										<img src="img/Tame Impala.jpg" alt="4">
+										<span class="gsap__item-img">
+											<img src="img/Tame Impala.jpg" alt="4">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 05</span>
+										<img src="img/p3.jpg" alt="5">
+										<span class="gsap__item-img">
+											<img src="img/p3.jpg" alt="5">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 06</span>
+										<img src="img/p5.jpg" alt="6">
+										<span class="gsap__item-img">
+											<img src="img/p5.jpg" alt="6">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 07</span>
+										<img src="img/statue-liberty1.jpg" alt="7">
+										<span class="gsap__item-img">
+											<img src="img/statue-liberty1.jpg" alt="7">
+										</span>
+									</div>
+									<div class="gsap__item">
+										<span class="gsap__item-num"># 08</span>
+										<img src="img/p4.png" alt="8">
+										<span class="gsap__item-img">
+											<img src="img/p4.png" alt="8">
+										</span>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+						<!-- gsap__bl END -->
+					</div>
+				</div>
+			</section>
+			<!-- section .section END -->
+
+
+			<div class="section-text ">
+
+				<p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iure ut sit voluptatem
+					fugit eos possimus reiciendis quas nulla amet. Ducimus a soluta quam amet quia dolore sequi modi
+					voluptate!
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum sequi magnam eos perspiciatis
+					consequuntur inventore, aliquam sit dolores pariatur non necessitatibus esse explicabo quae minus
+					omnis culpa cupiditate praesentium?
+				</p>
+			</div>
+
+		</main>
+		<!-- main .main END -->
+	</div>
+
+	
+	<!-- /div .wrapp END -->
+	<!-- script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.0/bundled/lenis.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+		integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+		integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+	<script src="/js/displacement.js"></script>
+	<script src="js/js.js"></script>
+
+</body>
+
+</html>
